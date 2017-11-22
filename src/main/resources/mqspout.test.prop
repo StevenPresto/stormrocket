@@ -1,0 +1,17 @@
+rocketmq.namesrv.addr=192.168.15.211:9876;192.168.15.213:9876
+rocketmq.spout.consumer.group=rocketmq-demo-group
+rocketmq.spout.topic=TEST
+rocketmq.spout.topic.tag=DefaultTag
+
+
+topology.name=rocketmq_spout
+topology.spout.parallel=1
+topology.bolt.parallel=1
+
+topology.acker.executors=1
+topology.workers=5
+topology.max.spout.pending=100
+topology.message.timeout.secs=60
+
+rocketmq.spout.ordered=false
+rocketmq.prefetch.size=1

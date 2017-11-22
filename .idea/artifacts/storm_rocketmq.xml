@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="storm_rocketmq">
+    <output-path>$PROJECT_DIR$/out/artifacts/storm_rocketmq</output-path>
+    <root id="archive" name="storm_rocketmq.jar">
+      <element id="module-output" name="stormrocketmq" />
+    </root>
+  </artifact>
+</component>
